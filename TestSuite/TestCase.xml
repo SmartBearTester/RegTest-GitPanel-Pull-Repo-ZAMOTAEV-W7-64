@@ -7,15 +7,11 @@
     <con:settings/>
     <con:config>
       <script>log.info("Hello World");
-log.info("Script changed remotely");
+log.info("Script changed remotely again");
 def str1 = "qwerty";
-def str2 = "nothing";
 def int1 = 1234567890;
-def int2 = 9876543210;
 def result_str = str1 + str2;
-log.info(result_str);
-def result_int = int1 + int2;
-log.info(result_int);</script>
+log.info(result_str);</script>
     </con:config>
   </con:testStep>
   <con:properties/>
